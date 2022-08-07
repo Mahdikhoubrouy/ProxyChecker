@@ -2,11 +2,11 @@
 
 > **Download For Windows** : [Click Here](https://github.com/miticyber/ProxyFinderAndChecker/releases/tag/proxychecker)
 
-> _Before Download Proxy Checker please download :_ [Dotnet Runtime version **6**](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
+> _Before Download Proxy Checker please download :_ .Net [Runtime version **6**](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
 
 > For Use In Linux Download Source Code And Compile , **I will post a tutorial on this soon**
 
-> **Please report it in the issues section if there is a problem : Link** [Issues](https://github.com/miticyber/ProxyFinderAndChecker/issues)
+> **Please report it in the issues section if there is a problem :** [Link issues](https://github.com/miticyber/ProxyFinderAndChecker/issues)
 
 ---
 
