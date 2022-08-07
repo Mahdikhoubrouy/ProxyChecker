@@ -15,33 +15,21 @@ namespace ProxyFinderAndChecker
 
         public static void Note(Color color,params string[] notes)
         {
-            Console.WriteLine("");
-            string sep = "";
-            for (int i = 0; i < (notes.First().Length + notes[^1].Length) + 10; i++) sep += "=";
-
-            SepWriter(sep);
+            AnsiConsole.WriteLine("");
 
             AnsiConsole.Foreground = color;
             foreach(string note in notes)
             {
-                Console.SetCursorPosition((Console.WindowWidth - note.Length) / 2, Console.CursorTop);
-                AnsiConsole.WriteLine(note);
+                AnsiConsole.WriteLine("- "+note);
             }
 
-            SepWriter(sep);
+            AnsiConsole.WriteLine("");
 
             Console.ResetColor();
-            Console.SetCursorPosition(0, Console.CursorTop);
 
         }
 
 
-        private static void SepWriter(string sep)
-        {
-            Console.SetCursorPosition((Console.WindowWidth - sep.Length) / 2, Console.CursorTop);
-            AnsiConsole.Foreground = Color.DarkCyan;
-            AnsiConsole.WriteLine(sep);
-        }
 
 
     }

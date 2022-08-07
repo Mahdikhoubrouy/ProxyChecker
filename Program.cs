@@ -21,6 +21,7 @@ foreach (var file in files)
 
 #region About
 
+Console.WriteLine("");
 Console.ForegroundColor = ConsoleColor.Cyan;
 Console.WriteLine(@"    ____                           ________              __            
    / __ \_________  _  ____  __   / ____/ /_  ___  _____/ /_____  _____
@@ -34,12 +35,11 @@ Logger.Note(Color.Purple, "Coded By : MohmmadMahdi Khoubrouy", "Github : https:/
 
 #endregion
 
-
 #region Check Exists Proxy file in directory
 if (ProxyListFiles.Count() <= 0)
 {
     Logger.Log("ProxyList File Not Found In Folder Proxies", Color.Red);
-    Logger.Note(Color.Cyan1, "For Working this app please first create ProxyList and Copy to Proxies Folder and then Run app");
+    Logger.Note(Color.Cyan1, "For Working this app please first create ProxyList", "Copy to Proxies Folder and then Run app");
     Logger.Note(Color.Khaki1, "Press enter for exit...");
     Console.ReadKey();
 }
