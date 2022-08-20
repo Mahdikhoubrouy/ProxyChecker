@@ -12,9 +12,9 @@
 
 ## **Demo:**
 
-![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/44816d5ff3c14100024b5e185ceff83cc8277fffbdd7f425.png)
+![image](https://user-images.githubusercontent.com/75374523/183313122-a47572ce-4bc7-42a3-ac48-a2fa9a8d1a3e.png)
 
-![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/bccae2f048df64b2fa7d2a3dade449e3561a1ad9ca6efb25.png)
+![image](https://user-images.githubusercontent.com/75374523/183313128-6f058176-7085-4b3b-9fb1-44583a7273a2.png)
 
 ---
 
