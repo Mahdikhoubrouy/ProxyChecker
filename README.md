@@ -8,8 +8,12 @@
 ### What's New ?
 
 > **Add Multi Thread Checking**
+
 > **Add Custom Setting ( Timout , BotThread )**
+
 > **Fixed Bugs**
+
+
 
 > **Please report it in the issues section if there is a problem :** [Link issues](https://github.com/miticyber/ProxyFinderAndChecker/issues)
 
