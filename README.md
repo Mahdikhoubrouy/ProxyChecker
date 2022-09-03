@@ -1,6 +1,6 @@
 ## Proxy Checker Cross-platform ✅
 
-> **Download For Windows ,Linux , MacOs ** : [Click Here](https://github.com/miticyber/ProxyChecker/releases/tag/proxychecker)
+> **Download For Windows ,Linux , MacOs ** : [Click Here](https://github.com/miticyber/ProxyChecker/releases/tag/proxychecker_V2)
 
 
 > _Before Download Proxy Checker please download :_ .[Net6 RunTime](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) 
