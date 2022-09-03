@@ -1,10 +1,15 @@
 ## Proxy Checker Cross-platform ✅
 
-> **Download For Windows ,Linux , MacOs ** : [Click Here](https://github.com/miticyber/ProxyFinderAndChecker/releases/tag/proxychecker)
+> **Download For Windows ,Linux , MacOs ** : [Click Here](https://github.com/miticyber/ProxyChecker/releases/tag/proxychecker)
+
 
 > _Before Download Proxy Checker please download :_ .[Net6 RunTime](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) 
 
-> For Use In Linux Download Source Code And Compile , **I will post a tutorial on this soon**
+### What's New ?
+
+> **Add Multi Thread Checking**
+> **Add Custom Setting ( Timout , BotThread )**
+> **Fixed Bugs**
 
 > **Please report it in the issues section if there is a problem :** [Link issues](https://github.com/miticyber/ProxyFinderAndChecker/issues)
 
@@ -12,10 +17,15 @@
 
 ## **Demo:**
 
-![image](https://user-images.githubusercontent.com/75374523/183313122-a47572ce-4bc7-42a3-ac48-a2fa9a8d1a3e.png)
 
-![image](https://user-images.githubusercontent.com/75374523/183313128-6f058176-7085-4b3b-9fb1-44583a7273a2.png)
 
 ---
+
+
+![Untitled1](https://user-images.githubusercontent.com/75374523/188277426-694d6e14-f4d4-4824-920f-ba28ccea9c1f.png)
+
+![Screenshot 2022-09-03 195034](https://user-images.githubusercontent.com/75374523/188277430-6e56fa82-43fc-4a8f-af91-c54f9c94d925.png)
+
+![Untitled](https://user-images.githubusercontent.com/75374523/188277432-46abf67b-a360-4f26-85a0-2d35851f5cc4.png)
 
 ## **Support me by giving this repository a star ❤️**
