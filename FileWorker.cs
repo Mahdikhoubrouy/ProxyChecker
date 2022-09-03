@@ -1,24 +1,30 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ProxyFinderAndChecker
+﻿namespace ProxyFinderAndChecker
 {
     public class FileWorker
     {
+        static readonly object _ThreadLock = new object();
+
         public static string[] ReadFile(string path)
         {
             return File.ReadAllLines(path);
         }
         public static void WriteFile(string text, string path)
         {
-            if(!File.Exists(path)) File.Create(path);
-            using (StreamWriter writer = new StreamWriter(path,true))
+            lock (_ThreadLock)
             {
-                writer.WriteLine(text);
-            };
+                try
+                {
+                    if (!File.Exists(path)) File.Create(path).Close();
+                    using (StreamWriter writer = new StreamWriter(path, true))
+                    {
+                        writer.WriteLine(text);
+                    };
+                }
+                catch
+                {
+
+                }
+            }
         }
     }
 }

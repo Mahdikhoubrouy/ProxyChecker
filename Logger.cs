@@ -13,14 +13,14 @@ namespace ProxyFinderAndChecker
 
         }
 
-        public static void Note(Color color,params string[] notes)
+        public static void Note(Color color, params string[] notes)
         {
             AnsiConsole.WriteLine("");
 
             AnsiConsole.Foreground = color;
-            foreach(string note in notes)
+            foreach (string note in notes)
             {
-                AnsiConsole.WriteLine("- "+note);
+                AnsiConsole.WriteLine("- " + note);
             }
 
             AnsiConsole.WriteLine("");

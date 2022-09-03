@@ -1,4 +1,5 @@
-﻿using System.Net;
+﻿using ProxyChecker.Settings;
+using System.Net;
 
 namespace ProxyFinderAndChecker
 {
@@ -7,13 +8,20 @@ namespace ProxyFinderAndChecker
 
         public string CheckProxy(WebProxy proxy)
         {
-            string data = "";
-            using (var client = new HttpClient(handler: new HttpClientHandler() { Proxy = proxy }))
+            try
             {
-                client.Timeout = TimeSpan.FromSeconds(5);
-                data = client.GetStringAsync("http://ip-api.com/json").GetAwaiter().GetResult();
+                var data = "";
+                using (var client = new HttpClient(handler: new HttpClientHandler() { Proxy = proxy }))
+                {
+                    client.Timeout = TimeSpan.FromSeconds(SettingFileConfigure.GetTimeOut());
+                    data = client.GetStringAsync("http://ip-api.com/json").GetAwaiter().GetResult();
+                }
+                return data;
             }
-            return data;
+            catch
+            {
+                return "Error";
+            }
         }
     }
 
