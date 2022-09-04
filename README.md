@@ -15,7 +15,7 @@
 
 
 
-> **Please report it in the issues section if there is a problem :** [Link issues](https://github.com/Mahdikhoubrouy/ProxyFinderAndChecker/issues)
+> **Please report it in the issues section if there is a problem :** [Link issues](https://github.com/Mahdikhoubrouy/ProxyChecker/issues)
 
 ---
 
